@@ -849,7 +849,7 @@ INV_AlleFahrzeugeArray = [
 ["h1c_black",["Fahrzeug", "truck"],["h1c_black", "Hummer Black Custom"],[85000, 85000], [2, "car", "PatrolBasic_license", 400], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 ["h1c_red",["Fahrzeug", "truck"],["h1c_red", "Hummer Red Custom"],[85000, 85000], [2, "car", "PatrolBasic_license", 400], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 ["h1c_white",["Fahrzeug", "truck"],["h1c_white", "Hummer White Custom"],[85000, 85000], [2, "car", "PatrolBasic_license", 400], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
-["h1c_grey",["Fahrzeug", "truck"],["h1c_grey", "Hummer Grey Custom"],[85000, 85000], [2, "car", "PatrolBasic_license", 400], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ]
+["h1c_grey",["Fahrzeug", "truck"],["h1c_grey", "Hummer Grey Custom"],[85000, 85000], [2, "car", "PatrolBasic_license", 400], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 
 // Muscle Car Shop
 ["challenger_black",["Fahrzeug", "car"],["challenger_black", "Challenger Black"],[55000, 55000], [2, "car", "PatrolBasic_license", 400], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
