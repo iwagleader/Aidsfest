@@ -8,7 +8,7 @@ format['if(getplayeruid player in Developer_id) then {player sideChat "DEBUG: %4
 
 if (isNil "_pitcar") exitwith {pitavailable = true; player sidechat format["Your are not in range to pit a vehicle."];};
 	
-if (_pitcarspeed <= 140) exitwith {player sidechat format["Your target must be going at least 140 km/h!"];};
+if (_pitcarspeed <= 100) exitwith {player sidechat format["Your target must be going at least 100 km/h!"];};
 
 if ((_rdmpit == 1) and (_pitcar distance player <= 5)) then {
 	_pitcar setVehicleInit 'this setfuel 0'; processInitCommands;
@@ -17,8 +17,8 @@ if ((_rdmpit == 1) and (_pitcar distance player <= 5)) then {
 	player sidechat format["You have failed to disable the vehicle!"];
 };
 
-player sidechat format["Your pit maneuver is now disabled. It will be available in 15 Min."];
+player sidechat format["Your pit maneuver is now disabled. It will be available in 2 Min."];
 pitavailable = false;
-sleep 900;
+sleep 120;
 pitavailable = true;
 player sidechat format["Your pit maneuver is now available."];
