@@ -573,7 +573,7 @@ _copcpl =
 "RH_hk416aim",
 "30Rnd_556x45_Stanag",
 "ilpd_beat_f101",
-"ilpd_slick_b40_pb",
+"ilpd_slick_b40_PBG",
 "ilpd_charger_white"
 ];
 
