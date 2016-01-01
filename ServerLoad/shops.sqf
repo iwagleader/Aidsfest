@@ -1813,7 +1813,7 @@ INV_ItemShops = [
 [gangarea1,"Gang Shop",gangbox1,dummyobj,_gangshop_buy,_gangshop_buy,true],
 [gangarea2,"Gang Shop",gangbox2,dummyobj,_gangshop_buy2,_gangshop_buy2,true],
 [gangarea3,"Gang Shop",gangbox3,dummyobj,_gangshop_buy3,_gangshop_buy3,true],																	
-[gangarea4,"Gang Shop",gangbox4,dummyobj,_gangshop_buy4,_gangshop_buy4,true],											
+//[gangarea4,"Gang Shop",gangbox4,dummyobj,_gangshop_buy4,_gangshop_buy4,true],											
 [cdrugsell,"Sell Cocaine",dummyobj,dummyobj,_dsc,_dsc,true],
 [mdrugsell,"Sell Marijuana",dummyobj,dummyobj,_dsm,_dsm,true],
 [ldrugsell,"Sell LSD",dummyobj,dummyobj,_emptyshop,_dsl,true],

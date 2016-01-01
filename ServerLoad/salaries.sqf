@@ -157,7 +157,7 @@ if ((alive player) and (deadcam == 0)) then
 		if(gangarea1 getvariable "control" == _mygang)then{_income = _income + (gangincome/_activecount)};
 		if(gangarea2 getvariable "control" == _mygang)then{_income = _income + (gangincome/_activecount)};
 		if(gangarea3 getvariable "control" == _mygang)then{_income = _income + (gangincome/_activecount)};
-		if(gangarea4 getvariable "control" == _mygang)then{_income = _income + (gangincome/_activecount)};
+		//if(gangarea4 getvariable "control" == _mygang)then{_income = _income + (gangincome/_activecount)};
 		};			
 
 	if ("mafial" call INV_HasLicense) then 

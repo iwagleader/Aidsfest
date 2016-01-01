@@ -10,7 +10,7 @@ _gangarea1 	= [];
 if (_gangarea==gangarea1) then {_gangarea1 = "West Side";};
 if (_gangarea==gangarea2) then {_gangarea1 = "Little Havana";};
 if (_gangarea==gangarea3) then {_gangarea1 = "East side";};
-if (_gangarea==gangarea4) then {_gangarea1 = "The Safe House";};
+//if (_gangarea==gangarea4) then {_gangarea1 = "The Safe House";};
 
 player playmove "AinvPknlMstpSlayWrflDnon_medic";
 waituntil {animationstate player != "AinvPknlMstpSlayWrflDnon_medic"};
