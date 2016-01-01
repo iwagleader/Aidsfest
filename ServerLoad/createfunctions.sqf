@@ -405,8 +405,8 @@ if (_classname == "Lada2_TK_CIV_EP1") then
 {
 	//newvehicle setVehicleInit 'this addAction ["Play Jihad Music","bombcarmusic.sqf",[],1,false,true,"","_this in _target"];this addAction ["Detonate","bombcarboom.sqf",[],1,false,true,"","_this in _target"]'; processInitCommands;
 	//newvehicle addAction ["Play Jihad Music","bombcarmusic.sqf",[],1,false,true,"","_this in _target"];newvehicle addAction ["Detonate","bombcarboom.sqf",[],1,false,true,"","_this in _target"];
-	jihadAction = newvehicle addAction ["Play Jihad Music","bombcarmusic.sqf",[],1,false,true,"","_this in _target"];
-	detAction = newvehicle addAction ["Detonate","bombcarboom.sqf",[],1,false,true,"","_this in _target"];
+	//jihadAction = newvehicle addAction ["Play Jihad Music","bombcarmusic.sqf",[],1,false,true,"","_this in _target"];
+	//detAction = newvehicle addAction ["Detonate","bombcarboom.sqf",[],1,false,true,"","_this in _target"];
 };
 //IRA BOMB TRUCK 
 if (_classname == "cl_fuel_mackr") then
