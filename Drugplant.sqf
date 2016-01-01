@@ -19,9 +19,9 @@ if (_art == "Use") then
 			_plant setVehicleInit "this addaction [""Burn Marijuana"", ""DrugScript.sqf"", [""Burn"", ""Marijuana""],1,false,true,"""",""player distance _this <= 10""]";
 			processInitCommands; 
 			//_plant setPos [getPos _plant select 0, getPos (_plant select 1)+round(random 5)];
-			sleep 120;
-			player groupChat "Marijuana will be ready in 120 seconds"; 
-			sleep 120;		
+			sleep 1;
+			player groupChat "Marijuana will be ready in 4 Minutes."; 
+			sleep 240;		
 			_plant setVehicleInit "this addaction [""Harvest Marijuana"", ""DrugScript.sqf"", [""Harvest"", ""Marijuana""],1,false,true,"""",""player distance _this <= 10""]";
 			processinitcommands;
 			//_plant setPos [getPos _plant select 0, getPos _plant select 1, 0];
@@ -38,9 +38,9 @@ if (_art == "Use") then
 			_plant setVehicleInit "this addaction [""Burn Heroin"", ""DrugScript.sqf"", [""Burn"", ""Heroin""],1,false,true,"""",""player distance _this <= 10""]";
 			_plant setPos [getPos _plant select 0, getPos _plant select 1, 0];
 			processInitCommands; 
-			sleep 120;
-			player groupChat "Poppy Plant will be ready in 120 seconds"; 
-			sleep 120;		
+			sleep 1;
+			player groupChat "Poppy Plant will be ready in 4 Minutes."; 
+			sleep 240;		
 			_plant setVehicleInit "this addaction [""Harvest Heroin"", ""DrugScript.sqf"", [""Harvest"", ""Heroin""],1,false,true,"""",""player distance _this <= 10""]";
 			processinitcommands;
 			//_plant setPos [getPos _plant select 0, getPos _plant select 1, 0];
@@ -57,9 +57,9 @@ if (_art == "Use") then
 			_plant setVehicleInit "this addaction [""Burn Cocaine"", ""DrugScript.sqf"", [""Burn"", ""Cocaine""],1,false,true,"""",""player distance _this <= 10""]";
 			_plant setPos [getPos _plant select 0, getPos _plant select 1, 0];
 			processInitCommands; 
-			sleep 120;
-			player groupChat "Coca Plant Nearly will be ready in 120 seconds"; 
-			sleep 120;		
+			sleep 1;
+			player groupChat "Coca Plant Nearly will be ready in 4 Minutes."; 
+			sleep 240;		
 			_plant setVehicleInit "this addaction [""Harvest Cocaine"", ""DrugScript.sqf"", [""Harvest"", ""Cocaine""],1,false,true,"""",""player distance _this <= 10""]";
 			processinitcommands;
 			//_plant setPos [getPos _plant select 0, getPos _plant select 1, 0];
