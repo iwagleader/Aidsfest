@@ -1,3 +1,4 @@
+// Organized and Revamped by Kenny ;)
 INV_AlleWaffenObjekte = [
 //weapons
 ["VSS_vintorez_ASS", ["Waffe", "sniper"],["VSS_vintorez", "VSS vintorez"], [100000, 60000], [2, "assassinlic", "assassinlic"], [], "M24" call ISSE_Cfg_Weapons_GetName, "M24" call ISSE_Cfg_Weapons_GetDesc, [["stahl", 45],["plastik", 12],["kupfer", 10],["glas", 2]] ],
@@ -114,7 +115,7 @@ INV_AlleWaffenObjekte = [
 ["RH_mp5a5eot_swat",["Waffe", "rifle"],["RH_mp5a5eot", "HK MP5A5 EoTech"],[65000, 65000], [1, "SWAT_license", "SWAT_license"],[], "Makarov" call ISSE_Cfg_Weapons_GetName,"Makarov" call ISSE_Cfg_Weapons_GetDesc,[["steel", 5], ["copper", 1],["plastic", 1]] ],
 ["KPFS_HKP30_swat",["Waffe", "pistol"],["KPFS_HKP30", "HK P30"],[15000, 17500], [1, "SWAT_license", "SWAT_license"],[], "Makarov" call ISSE_Cfg_Weapons_GetName,"Makarov" call ISSE_Cfg_Weapons_GetDesc,[["steel", 5], ["copper", 1],["plastic", 1]]],
 
-//TIER X WEAPONS
+//TIER X Weapons
 ["RH_aks47g_tx",["Waffe", "rifle"],["RH_aks47g", "AKS47 Gold"],[55000, 20000], [1, "Donator_license", "Donator_license"],[], "Makarov" call ISSE_Cfg_Weapons_GetName,"Makarov" call ISSE_Cfg_Weapons_GetDesc,[["steel", 5], ["copper", 1],["plastic", 1]] ],
 ["RH_aks47s_tx",["Waffe", "rifle"],["RH_aks47s", "AKS47 Silver"],[55000, 20000], [1, "Donator_license", "Donator_license"],[], "Makarov" call ISSE_Cfg_Weapons_GetName,"Makarov" call ISSE_Cfg_Weapons_GetDesc,[["steel", 5], ["copper", 1],["plastic", 1]] ],
 ["kpfs_hk32_tx",["Waffe", "rifle"],["kpfs_hk32", "HK32"],[60000, 20000], [1, "Donator_license", "Donator_license"],[], "Makarov" call ISSE_Cfg_Weapons_GetName,"Makarov" call ISSE_Cfg_Weapons_GetDesc,[["steel", 5], ["copper", 1],["plastic", 1]] ],
@@ -778,7 +779,7 @@ INV_AlleFahrzeugeArray = [
 ["LAV25",["Fahrzeug", "car"],["LAV25_HQ", "LAV-25"],[150000, 30000], [2, "PatrolBasic_license", "PatrolBasic_license", 100], [150, [1,0,0,3]], "LAV25_HQ" call ISSE_Cfg_Vehicle_GetName, "LAV25_HQ" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 4],["glas", 1],["plastik", 1],["erdoel", 4]] ],
 ["HMMWV_Armored",["Fahrzeug", "car"],["HMMWV_Armored", "HMMWV M240"],[300000, 25000], [2, "PatrolBasic_license", "PatrolBasic_license", 100], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 4],["glas", 1],["plastik", 1],["erdoel", 4]] ],
 ["UH1Y",["Fahrzeug","air"],["UH1Y","UH-1Y"],[375000,100000],[1,"PatrolBasic_license","PatrolBasic_license",100], [1000, [1,2,0,13] ], "UH1Y", "UH1Y", [["stahl", 500],["ebauteile", 15],["glas", 10],["plastik", 40],["mineraloel", 60],["money",8000]]],
-//
+
 // Sports Truck Shop
 ["raptor_black",["Fahrzeug", "truck"],["raptor_black", "Raptor Black"],[60000, 60000], [2, "car", "", 300], [250, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 ["raptor_grey",["Fahrzeug", "truck"],["raptor_grey", "Raptor Grey"],[60000, 60000], [2, "car", "", 300], [250, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
@@ -1306,7 +1307,7 @@ INV_AlleItemsArray = [
 ["selbstmordbombe",["Item", "bomb"],["selbstmordbombe", "Suicide Bomb"],[400000, 37500], [50, "bomb", "PatrolBasic_license"], [true, true, true,true,"suicide.sqf"],localize "STRS_inv_item_selbstmordbombe",localize "STRS_inv_item_selbstmordbombe_info", [["copper", 20],["blackpowder", 22],["ebauteile", 3]]],
 ["fernzuender", ["Item", "bomb"], ["fernzuender", "Remote Control"], [22500, 7500], [5, ""],[true,true,true, true, "bombs.sqf"],localize "STRS_inv_item_fernzuender",localize "STRS_inv_item_zuender_info", [["ebauteile", 2],["plastic", 2]]],
 
-// Food
+// Food and Drink
 ["tcgmp",["Item", "food"],["tcgmp", "TCG moon pie"],[100, 100], [.5, ""], [true, true, true,false,"food.sqf"],"TCG moon pie","TCG Moon Pie is just awsesome", [] ], 
 ["doshd",["Item", "food"],["doshg", "Dos Equis Hot Dog"],[100, 100], [1, ""], [true, true, true,false,"food.sqf"],"Dos Equis Hot Dog","Dos Equis Famous Foot long Hot Dog", [] ], 
 ["gdar",["Item", "food"],["gdar", "Vanilla Ice Cream"],[100, 100], [1, ""], [true, true, true,false,"food.sqf"],"Vanilla's Sweet Ice Cream","Vanilla's Ice Cream is sweet and salty", [] ], 
@@ -1381,6 +1382,19 @@ INV_AlleItemsArray = [
 ["codeb", ["Item", "carobjects"],["codeb", "Digital Code Breaker"], [350000, 10000], [3, "terror", "PatrolBasic_license"],[true,true,true, false, "codepick.sqf"],"Digital Codepad Breaker","Assist with opening digital doors", [["steel", 1]] ],
 ["safehack", ["Item", "misc"],["safehack", "Vault Code Cracker"],[250000, 7500],[5,"terror","PatrolBasic_license"],[true,true,true, true, "useresource.sqf"], "Vault Code Cracker","This cracker allows you to crack the code to the bank safes. To use it, you must scroll wheel on one of the bank vaults!", [] ],
 ["burgl", ["Item", "misc"],["burgl", "Burglary Tools"], [75000, 7500], [5, "", "PatrolBasic_license"],[true,true,true, false, "burgler.sqf"],"Burglary Tools","Used to break and enter a house", [["steel", 1]] ],
+["eyes", ["Item", "drug"], ["eyes", "Bloody Eyes"],[1250, 1250], [1, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
+["brain", ["Item", "drug"], ["brain", "Human Brain"],[2000, 2000], [3, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
+["liver", ["Item", "drug"], ["liver", "Human Liver"],[1500, 1500], [3, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
+["heart", ["Item", "drug"], ["heart", "Human Heart"],[1600, 1600], [2, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
+["kidney", ["Item", "drug"], ["kidney", "Human Kidney"],[1500, 1500], [2, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
+["bones", ["Item", "drug"], ["bones", "Human Bones"],[1250, 1250], [4, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
+["teeth", ["Item", "drug"], ["teeth", "Human Teeth"],[1650, 1650], [1, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
+
+// Police / ESU Specific Items
+["land_ladder_half",["Item", "misc"],["land_ladder_half", "Swat Ladder"],[4000, 2000], [20, "", ""], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_land_ladder_half",localize "STRS_inv_item_land_ladder_half_info", [] ],
+["danger",["Item", "misc"],["Sign_Danger", "Danger Sign"],[1000, 1000], [10, "esul", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_danger",localize "STRS_inv_item_danger_info", [] ],
+["roadbarrierlong",["Item", "misc"],["RoadBarrier_long", "Caution Barrier Large"],[100, 100], [2, "esul", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_roadcone",localize "STRS_inv_item_roadcone_info", [] ],
+["roadbarriersmall",["Item", "misc"],["RoadBarrier_light", "Caution Barrier Small"],[100, 100], [1, "esul", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_roadcone",localize "STRS_inv_item_roadcone_info", [] ],
 
 // Misc Placeable and Inventory Items
 ["handy",["Item", "Shop"], ["handy", "Cell Phone"], [750, 750], [0, ""],[false,false, false,true,"Scripts\Misc\CellPhone\CellPhoneMenu.sqf"], localize "STRS_inv_item_handy",localize "STRS_inv_item_handy_info", [["plastic", 2],["ebauteile", 2]]],
@@ -1395,10 +1409,6 @@ INV_AlleItemsArray = [
 ["bigbagfence",["Item", "misc"],["Land_fort_bagfence_long", "Big bag fence"],[1500, 1000], [20, "", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_bigbagfence",localize "STRS_inv_item_bigbagfence_info", [] ],
 ["bigbagfenceRound",["Item", "misc"],["Land_fort_bagfence_round", "Big bag fence (Round)"],[1500, 1000], [20, "", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_bigbagfenceRound",localize "STRS_inv_item_bigbagfenceRound_info", [] ],
 ["bunkersmall",["Item", "misc"],["Land_fortified_nest_small", "Bunker (Small)"],[2500, 1000], [20, "", ""], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_bunkersmall",localize "STRS_inv_item_bunkersmall_info", [] ],
-["land_ladder_half",["Item", "misc"],["land_ladder_half", "Swat Ladder"],[4000, 2000], [20, "", ""], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_land_ladder_half",localize "STRS_inv_item_land_ladder_half_info", [] ],
-["danger",["Item", "misc"],["Sign_Danger", "Danger Sign"],[1000, 1000], [10, "esul", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_danger",localize "STRS_inv_item_danger_info", [] ],
-["roadbarrierlong",["Item", "misc"],["RoadBarrier_long", "Caution Barrier Large"],[100, 100], [2, "esul", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_roadcone",localize "STRS_inv_item_roadcone_info", [] ],
-["roadbarriersmall",["Item", "misc"],["RoadBarrier_light", "Caution Barrier Small"],[100, 100], [1, "esul", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_roadcone",localize "STRS_inv_item_roadcone_info", [] ],
 ["gnt_scubaw",["Item", "misc"],["gnt_scubaw", "Scuba Gear"],[10000, 10000], [50, "", ""], [true, true, true,false,"createobject.sqf"],"Scuba Gear","You can Swim underwater", [] ],
 ["factory",["Item", "misc"],["Land_A_GeneralStore_01a", "Factory"],[180000, 180000], [20, "", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_factory",localize "STRS_inv_item_factory_info", [] ],
 ["officebuilding",["Item", "misc"],["Land_A_Office01", "Office Building"],[150000, 150000], [20, "", "PatrolBasic_license"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_officebuilding",localize "STRS_inv_item_officebuilding_info", [] ],
@@ -1462,18 +1472,6 @@ INV_AlleItemsArray = [
 ["TK_INS_Soldier_AA_EP1",["Item", "misc"],["TK_INS_Soldier_AA_EP1", "Specialist"], [21000, 4200], [5, "RLRPG_Clothing_license", "RLRPG_Clothing_license"],[true,true,true, false, "rlrpgclothing.sqf"], "RLRPG Clothing Shop",localize "STRS_inv_item_Rocker2_info", [["steel", 1],["ebauteile", 1],["plastic", 1],["plastic", 10]]],
 ["US_Soldier_Pilot_EP1",["Item", "misc"],["US_Soldier_Pilot_EP1", "American Pilot"], [21000, 4200], [5, "RLRPG_Clothing_license", "RLRPG_Clothing_license"],[true,true,true, false, "rlrpgclothing.sqf"], "RLRPG Clothing Shop",localize "STRS_inv_item_Rocker2_info", [["steel", 1],["ebauteile", 1],["plastic", 1],["plastic", 10]]],
 
-
-
-
-
-//organs
-["eyes", ["Item", "drug"], ["eyes", "Bloody Eyes"],[1250, 1250], [1, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
-["brain", ["Item", "drug"], ["brain", "Human Brain"],[2000, 2000], [3, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
-["liver", ["Item", "drug"], ["liver", "Human Liver"],[1500, 1500], [3, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
-["heart", ["Item", "drug"], ["heart", "Human Heart"],[1600, 1600], [2, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
-["kidney", ["Item", "drug"], ["kidney", "Human Kidney"],[1500, 1500], [2, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
-["bones", ["Item", "drug"], ["bones", "Human Bones"],[1250, 1250], [4, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
-["teeth", ["Item", "drug"], ["teeth", "Human Teeth"],[1650, 1650], [1, ""],[true,true,true, true, "nouse.sqf"], "Bodyparts","This is an illegal bodypart", [] ],
 //cop speed stuff
 ["nitro_it",["Item", "carobjects"],["nitro", "Nitro"], [17500, 1050], [2, "PatrolBasic_license", "PatrolBasic_license"],[true,true,true, false, "nitro.sqf"], localize "STRS_inv_item_nitro",localize "STRS_inv_item_nitro_info", [["stahl", 1],["ebauteile", 1],["plastik", 1],["erdoel", 10]]],
 ["ziptie",["Item", "misc"],["ziptie", "Zip Tie"], [4000, 4000], [1, "", ""],[true,true,true, false, "nouse.sqf"], "Zip Tie",localize "STRS_inv_item_ziptie_info", [["steel", 1],["ebauteile", 1],["plastic", 1],["plastic", 10]]],
