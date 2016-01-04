@@ -553,6 +553,7 @@ _coppo2 =
 "8Rnd_B_Beneli_74Slug",
 "8Rnd_B_Beneli_Pellets",
 "ilpd_beat_f101",
+"tcg_taurus_pb_2",
 "tcg_taurus"
 ];
 
@@ -564,7 +565,9 @@ _coppo3 =
 "RH_hk416aim",
 "30Rnd_556x45_Stanag",
 "ilpd_beat_f101",
-"il_charger_pd"
+"il_charger_pd",
+"tcg_taurus_pb_2",
+"tcg_taurus"
 ];
 
 //60
@@ -604,9 +607,10 @@ _copdeputy =
 "5Rnd_762x51_M24",
 "ilpd_beat_f101_sh",
 "tcg_taurus_shpb",
-"tahoe_sh",
 "suburban_pd_sheriff",
 "RH_acrbaim_pmc",
+"patrol_pb",
+"pd_cvpi_hub",
 "pd_cvpi"
 ];
 
@@ -626,8 +630,11 @@ _copsheriff =
 "30Rnd_556x45_Stanag",
 "100Rnd_556x45_BetaCMag",
 "ilpd_beat_f101_sh",
+"patrol_pb",
 "ilpd_slick_f220_PBG",
+"ilpd_slick_f220_npb",
 "tcg_taurus_shpb",
+"pd_cvpi_hub",
 "tahoe_sh",
 "suburban_pd_sheriff",
 "il_f350sheriff",
