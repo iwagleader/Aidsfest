@@ -604,7 +604,8 @@ _copdeputy =
 "5Rnd_762x51_M24",
 "ilpd_beat_f101_sh",
 "tcg_taurus_shpb",
-"tahoe_sh",
+"ilpd_beat_f101_sh",
+"pd_cvpi_hub",
 "suburban_pd_sheriff",
 "RH_acrbaim_pmc",
 "pd_cvpi"
@@ -625,11 +626,13 @@ _copsheriff =
 "ilpd_Traffic_sandstone",
 "30Rnd_556x45_Stanag",
 "100Rnd_556x45_BetaCMag",
-"ilpd_beat_f101_sh",
-"ilpd_slick_f220_PBG",
-"tcg_taurus_shpb",
-"tahoe_sh",
-"suburban_pd_sheriff",
+"ilpd_superbeat_f101_sh",
+"ilpd_superslick_f220_PBG",
+"ilpd_superslick_f220_npb",
+"tcg_taurusuper_shpb",
+"tahoe_supersh",
+"pd_supercvpi_hub",
+"supersuburban_pd_sheriff",
 "il_f350sheriff",
 "ilpd_unmarked_white",
 "ilpd_unmarked_black",
@@ -637,7 +640,7 @@ _copsheriff =
 "ilpd_unmarked_maroon",
 "ilpd_unmarked_darkblue",
 "ilpd_unmarked_grey",
-"pd_cvpi"
+"pd_supercvpi"
 ];
 
 //64
