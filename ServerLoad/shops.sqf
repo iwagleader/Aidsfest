@@ -553,8 +553,8 @@ _coppo2 =
 "8Rnd_B_Beneli_74Slug",
 "8Rnd_B_Beneli_Pellets",
 "ilpd_beat_f101",
-"tcg_taurus"
-"tcg_taurus_pb_2",
+"tcg_taurus",
+"tcg_taurus_pb_2"
 ];
 
 //59
@@ -566,8 +566,8 @@ _coppo3 =
 "30Rnd_556x45_Stanag",
 "ilpd_beat_f101",
 "il_charger_pd"
-"tcg_taurus"
-"tcg_taurus_pb_2",
+"tcg_taurus",
+"tcg_taurus_pb_2"
 ];
 
 //60
