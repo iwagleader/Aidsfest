@@ -63,7 +63,7 @@ _crowns = ["ilpd_slick_b40_pb","ilpd_beat_f101"];
 _crowns = ["ilpd_slick_b40_pb","ilpd_beat_f101"];
 _crownsuper = ["ilpd_slick_b40_PBG"];
 _crownsdsuper = ["ilpd_superslick_f220_PBG","ilpd_superbeat_f101_sh","pd_supercvpi","ilpd_superslick_f220_npb"];
-_sherifsupersub = ["supersuburban_pd_sheriff"]
+_sherifsupersub = ["supersuburban_pd_sheriff"];
 _crownsherif = ["ilpd_beat_f101_sh","pd_cvpi"];
 _sherifsub = ["suburban_pd_sheriff"];
 _sheriffsupertaurus ["tcg_taurusuper_shpb"];
