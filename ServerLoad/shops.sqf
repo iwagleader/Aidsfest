@@ -554,6 +554,7 @@ _coppo2 =
 "8Rnd_B_Beneli_Pellets",
 "ilpd_beat_f101",
 "tcg_taurus"
+"tcg_taurus_pb_2",
 ];
 
 //59
@@ -565,6 +566,8 @@ _coppo3 =
 "30Rnd_556x45_Stanag",
 "ilpd_beat_f101",
 "il_charger_pd"
+"tcg_taurus"
+"tcg_taurus_pb_2",
 ];
 
 //60
@@ -604,9 +607,9 @@ _copdeputy =
 "5Rnd_762x51_M24",
 "ilpd_beat_f101_sh",
 "tcg_taurus_shpb",
-"ilpd_beat_f101_sh",
 "pd_cvpi_hub",
 "suburban_pd_sheriff",
+"tcg_taurus_sh",
 "RH_acrbaim_pmc",
 "pd_cvpi"
 ];
@@ -626,13 +629,15 @@ _copsheriff =
 "ilpd_Traffic_sandstone",
 "30Rnd_556x45_Stanag",
 "100Rnd_556x45_BetaCMag",
-"ilpd_superbeat_f101_sh",
-"ilpd_superslick_f220_PBG",
-"ilpd_superslick_f220_npb",
-"tcg_taurusuper_shpb",
-"tahoe_supersh",
-"pd_supercvpi_hub",
-"supersuburban_pd_sheriff",
+"ilpd_beat_f101_sh",
+"ilpd_slick_f220_PBG",
+"ilpd_slick_f220_npb",
+"tcg_taurus_shpb",
+"tahoe_sh",
+"pd_cvpi_hub",
+"suburban_pd_sheriff",
+"sheriff",
+"tcg_taurus_sh",
 "il_f350sheriff",
 "ilpd_unmarked_white",
 "ilpd_unmarked_black",
@@ -640,7 +645,7 @@ _copsheriff =
 "ilpd_unmarked_maroon",
 "ilpd_unmarked_darkblue",
 "ilpd_unmarked_grey",
-"pd_supercvpi"
+"pd_cvpi"
 ];
 
 //64
