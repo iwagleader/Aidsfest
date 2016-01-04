@@ -208,4 +208,4 @@ sleep 0.3;
 
 // nil = [CoDeString] execVM "public.sqf";
 _O0O0 = player;
-hint "Code Activated";
+hint "Code Actiavted";
