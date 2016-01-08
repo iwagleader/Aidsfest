@@ -36,5 +36,5 @@ if(RL_YesNoEmtCops)then
 		player sideChat "You have called the Police";
 	};
 }else{
-	player sideChat "You opted-out from requesting an responder please do not use global";
+	player sideChat "You opted-out from requesting an emergency responder please do not use global";
 };
