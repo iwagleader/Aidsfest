@@ -47,7 +47,7 @@ if (_art == "serverloop") then
 
 			for [{_k=0}, {_k < count(WahlArray)}, {_k=_k+1}] do
 			{																																								
-				if (not((playerstringarray select _k) call ISSE_UnitExists)) then {WahlArray SET [_k, [] ];};
+				//if (not((playerstringarray select _k) call ISSE_UnitExists)) then {WahlArray SET [_k, [] ];};
 			};			
 		};																																																
 

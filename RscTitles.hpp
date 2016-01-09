@@ -3,8 +3,8 @@ class RscTitles
 
 #define screenwidth  (1 - safeZonex*2)
 #define screenheight (1 - safeZoney*2)
-#include "HUD\dialog\HUD.hpp"
 
+#include "HUD\dialog\HUD.hpp"
 class RL_Dialog_loading
 {
 	idd = 242334;

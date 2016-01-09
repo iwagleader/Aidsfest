@@ -61,7 +61,7 @@ if (typeName player == "OBJECT") then {
 		call compile format["old%1 = objnull", player];
 	};
 };
-
+waitUntil{!isnIl "fn_StatsLoaded"};
 {
 	if (_civnum == _x) then
 	{

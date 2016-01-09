@@ -34,7 +34,6 @@ call compile preprocessfile "triggers.sqf";
 [] call compile preprocessFileLineNumbers "addons\proving_Ground\init.sqf";
 [1112, "Exec Player Array",10] call RL_LoadingSetText;
 _h = [] execVM "ServerLoad\playerarrays.sqf";																												
-waitUntil{scriptDone  _h};
 [1112, "Init Functions",15] call RL_LoadingSetText;
 _h = [78, rolenumber] execVM "ServerLoad\initfuncs.sqf";
 waitUntil{scriptDone  _h};
@@ -102,7 +101,7 @@ if(isNil "45983450u34h77y5646ccvd4tjdsjncx7y3h") exitWith
 };
 if(isServer) then
 {	
-	call compile preProcessFile "\iniDB\init.sqf";
+	call compile preProcessFile "\iniDBi\init.sqf";
 	[] call resetSafeCode;
 	sleep 2;
 	[] call autoUpdateSafeCode;

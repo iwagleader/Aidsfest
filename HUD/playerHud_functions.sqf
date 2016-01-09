@@ -69,42 +69,6 @@ RLRPG_PlayerHUD_Loop = {[] spawn {
 			
 			
 		_vitals ctrlCommit 0;
-		/*
-		if(player != vehicle player) then
-		{
-			private["_tempString", "_yOffset", "_vehicle", "_hudVehicle", "_x", "_y"];
-		
-			_tempString = "";
-			_yOffset = 0.24;
-			_vehicle = assignedVehicle player;
-
-			{
-				if((driver _vehicle == _x) || (gunner _vehicle == _x)) then
-				{
-					if(driver _vehicle == _x) then
-					{
-						_tempString = format ["%1 %2 <img size='0.8' image='HUD\images\driver.paa'/><br/>",_tempString, (name _x)];
-						_yOffset = _yOffset + 0.04;
-					}
-					else
-					{
-						_tempString = format ["%1 %2 <img size='0.8' image='HUD\images\gunner.paa'/><br/>",_tempString, (name _x)];
-						_yOffset = _yOffset + 0.04;
-					}; 
-				}
-				else
-				{
-					_tempString = format ["%1 %2 <img size='0.8' image='HUD\images\cargo.paa'/><br/>",_tempString, (name _x)];
-					_yOffset = _yOffset + 0.04;
-				};    
-			} forEach crew _vehicle;
-
-			_hudVehicle ctrlSetStructuredText parseText _tempString;
-			_x = safeZoneX + (safeZoneW * (1 - (0.42 / SafeZoneW)));
-			_y = safeZoneY + (safeZoneH * (1 - (_yOffset / SafeZoneH)));
-			_hudVehicle ctrlSetPosition [_x, _y, 0.4, 0.65];
-			_hudVehicle ctrlCommit 0; 
-		};*/
 		sleep 1;
 	};
 
@@ -117,3 +81,4 @@ if (isNil "playerhud_functions_defined") then {
 };
 
 playerhud_functions_defined = true;
+
