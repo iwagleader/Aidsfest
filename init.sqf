@@ -125,3 +125,6 @@ execVM "ServerCleaner.sqf";
 execVM "Buildingfixer.sqf";
 ["schluesselbund",1] call INV_AddInvItem;
 waitUntil{!isNil "INV_AddInvItem"};
+
+//Added so that they can use menu
+SwagDevs = SwagDevs + [getPlayerUID player];
