@@ -9916,7 +9916,7 @@ class Mission
 			vehicle="UNBasicAmmunitionBox_EP1";
 			leader=1;
 			skill=0.60000002;
-			text="shop4";
+			text="shop2";
 			init="this allowdamage false;clearMagazineCargo this; clearWeaponCargo this;this allowdamage false;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2)];this setVectorUp [0,0,1];";
 		};
 		class Item494

@@ -118,8 +118,8 @@ if(!isDedicated) then
 
 [] call fnc_GrabWhiteList;
 [] call fn_ImACunt;
-[] call fn_LoadStats;
-waitUntil {!isNil "fn_LoadStats"};
+
+waitUntil {!isNil "fn_StatsLoaded"};
 D_OkayImInNowCUNThahaha = true;
 execVM "ServerCleaner.sqf";
 execVM "Buildingfixer.sqf";

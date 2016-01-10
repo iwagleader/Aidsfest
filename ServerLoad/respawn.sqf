@@ -1,36 +1,37 @@
-//Edit by Sgt Stewart
-waitUntil {JIP_Stats_Ready};
-while {true} do 
+//Removing script errors
+_StatsReady = false;
 
+//Placed a basic check to see if JIP_Stats_Ready is nil, if it is then _StatsReady = false;
+if(isNil "JIP_Stats_Ready") then {
+	_StatsReady = false;
+	diag_log = "Stats Read = FALSE:";
+} else {
+	_StatsReady = JIP_Stats_Ready;
+	diag_log "Stats Read = JIP_Stats_Ready";
+};
+
+// waitUntil{JIP_Stats_Ready};
+waitUntil {_StatsReady};
+
+while {alive player} do 
 {
+	// waitUntil{alive player}; 
+	player removeweapon "ItemGPS";
+	execVM "briefing.sqf";
 
-waituntil {alive player};
-
-player removeweapon "ItemGPS";
-execVM "briefing.sqf";
-
-if (iscop) then 
-
+	if (iscop) then 
 	{
-
-	if (count playerWeapons == 0 and count playermagazines == 0) then 
-
+		if (count playerWeapons == 0 and count playermagazines == 0) then
 		{
-
-		{player addMagazine _x} forEach CopStartGear_Mags;
-		{player addWeapon   _x} forEach CopStartGear_Weap;	
-	
-		} 
-		else 
-		{
-
-		{player addMagazine _x} forEach playermagazines;
-		{player addWeapon   _x} forEach playerWeapons;										
-
+			{player addMagazine _x} forEach CopStartGear_Mags;
+			{player addWeapon   _x} forEach CopStartGear_Weap;	
+		}else{
+			{player addMagazine _x} forEach playermagazines;
+			{player addWeapon   _x} forEach playerWeapons;										
 		};
 
-	player selectweapon (primaryweapon player);
-	weaponsloaded = true;			
+		player selectweapon (primaryweapon player);
+		weaponsloaded = true;			
 
 	};
 
